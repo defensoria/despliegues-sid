@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reporteExpediente001B" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="e8e17cc8-2bb2-4615-af5f-f83f4d9817ad">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\recursos\\reportes\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="SQL">
+		<![CDATA[]]>
+	</queryString>
+	<field name="usuario" class="java.lang.String"/>
+	<field name="quejaTramite" class="java.lang.Integer"/>
+	<field name="quejaConcluido" class="java.lang.Integer"/>
+	<field name="consultaTramite" class="java.lang.Integer"/>
+	<field name="consultaConcluido" class="java.lang.Integer"/>
+	<field name="petitorioTramite" class="java.lang.Integer"/>
+	<field name="petitorioConcluido" class="java.lang.Integer"/>
+	<columnHeader>
+		<band height="56">
+			<rectangle>
+				<reportElement x="0" y="16" width="132" height="40" backcolor="#CCCCCC" uuid="419d00f1-1158-4e26-9f90-4bbf85eff8a8"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="132" y="36" width="65" height="20" backcolor="#CCCCCC" uuid="ee87ec2e-ae71-452a-a3ad-a0a1328918ee"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="197" y="36" width="65" height="20" backcolor="#CCCCCC" uuid="b32a7311-70f1-47ed-a0e4-1ea9a2bb94af"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="132" y="16" width="130" height="20" backcolor="#CCCCCC" uuid="fb713824-8cbc-47a1-98cf-bbbfca20b514"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="28" width="132" height="20" forecolor="#333333" uuid="b9d4f71b-c42b-4439-8dbe-062b518f16b8"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Comisionado]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="262" y="16" width="130" height="20" backcolor="#CCCCCC" uuid="6a7d3cc6-693b-4d45-9106-cb059c764456"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="392" y="16" width="130" height="20" backcolor="#CCCCCC" uuid="c13e489f-edf1-4f01-b45b-e3364324a45d"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="262" y="36" width="65" height="20" backcolor="#CCCCCC" uuid="663cae19-9cdd-4aa6-8a4a-d9e81a7cb876"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="327" y="36" width="65" height="20" backcolor="#CCCCCC" uuid="5885ec18-c570-4a5a-ad95-60b45bbac03a"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="392" y="36" width="65" height="20" backcolor="#CCCCCC" uuid="c3e6da0b-c1c8-450b-ba39-43a6566a9744"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="457" y="36" width="65" height="20" backcolor="#CCCCCC" uuid="4897fb21-6b34-403c-b479-7af8d7bcb1ab"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="392" y="16" width="130" height="20" uuid="95876a93-4b54-43cf-9c96-efd96cd50946"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Queja]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="458" y="37" width="64" height="19" uuid="53b4bbf7-98b3-411b-b1af-db9b81237774"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tramite]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="262" y="16" width="130" height="20" uuid="e7271890-691f-4aa8-88eb-9b4a83e286c5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Petitorio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="132" y="16" width="130" height="20" uuid="65892512-46df-47c8-8940-6724b2350b25"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Consulta]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="37" width="65" height="19" uuid="5dbebe32-1a39-4398-876b-63f4ee6edb36"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Concluido]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="328" y="37" width="65" height="18" uuid="40117fae-f6e9-4dce-845c-b4d0ae9caf67"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tramite]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="263" y="36" width="65" height="19" uuid="83d3a7b2-4807-4006-9656-3413c0837ffb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Concluido]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="198" y="37" width="64" height="19" uuid="fbac2abb-c957-4a6f-b356-af2ee6bff8b3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tramite]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="37" width="64" height="19" uuid="f6bd9974-50de-421a-84c5-0c12903b8120"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Concluido]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<textField>
+				<reportElement x="458" y="0" width="65" height="20" uuid="7a5d41b2-809c-4b84-8533-a0cc6cd224e8"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{quejaTramite}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="393" y="1" width="65" height="19" uuid="a009e8c2-c436-4d18-bab0-2e469d1e4168"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{quejaConcluido}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="198" y="0" width="65" height="20" uuid="ef5e64a3-5bc5-4043-8a1c-75e52929b377"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{consultaTramite}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="133" y="1" width="65" height="19" uuid="d1b82337-9486-43a5-94f4-c48c5b45efc1"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{consultaConcluido}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="328" y="1" width="65" height="19" uuid="796c9aa0-e402-4923-bd79-1c07e8037072"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{petitorioTramite}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="263" y="1" width="65" height="19" uuid="639a92c7-1918-442a-9fde-818682f7ff9d"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{petitorioConcluido}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="1" y="1" width="131" height="19" forecolor="#000000" backcolor="#CCCCCC" uuid="e9405279-3932-447e-8614-92e149216a81"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="3" width="132" height="17" uuid="69e64c7a-cd61-408f-b0fb-0e1a4f80e9b1"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{usuario}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
